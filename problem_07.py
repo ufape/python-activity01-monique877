@@ -14,7 +14,7 @@ Inputs, Processes and Output (IPO)
 Input(s):
 O arquivo de entrada contém um número inteiro.
 Exemplo: 
-Digite a distância (em km) desejada: 30
+Digite a distância (em km) desejada:  30
 
 Processes:
 Dois carros (X e Y) partem em uma mesma direção. O carro X sai com velocidade constante de 60 km/h e o carro Y sai com velocidade constante de 90 km/h.
@@ -31,8 +31,11 @@ Levará 60 min.
 
 
 def main():
-    pass # your code here
+    distancia = int(input('Digite a distância (em km) desejada: '))
 
+    resultado = distancia * 2
+
+    print(f'Levará {resultado} min.')
 
 if __name__ == '__main__':
     main()

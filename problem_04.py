@@ -30,7 +30,13 @@ Exemplo:
 
 
 def main():
-    pass # your code here
+    PI = 3.14159
+    raio = int(input('Digite o valor do raio: '))
+
+    area = PI * (raio ** 2)
+
+    print(f'Área: {area:.5f}m')
+    
 
 if __name__ == '__main__':
     main()
